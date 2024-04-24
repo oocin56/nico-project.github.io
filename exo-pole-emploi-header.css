@@ -1,0 +1,421 @@
+.menu-open {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.header {
+  background-color: rgb(238, 238, 238);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0px 1px 5px rgb(131, 131, 131);
+  z-index: 100;
+  transition: 0.5s;
+  align-items: center;
+
+}
+
+.left-side,
+.right-side {
+  background-color: transparent;
+  width: 299px;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.gif-header {
+  display: flex;
+
+}
+
+.right-side {
+  direction: rtl;
+}
+
+.logo-france {
+  height: 45px;
+  width: 60px;
+  padding-right: 0px;
+  padding-left: 10px;
+}
+
+.logo-ft {
+  height: 45px;
+  width: 124px;
+  padding-right: 0px;
+  padding-left: 10px;
+  border-right: solid 1px;
+  border-color: transparent(228, 228, 228);
+  
+
+}
+.menu-brg {
+  display: flex;
+  height: 60px;
+  width: 105px;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  padding: 16px 10px;
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  background-color: transparent;
+  
+}
+
+.menu-logo {
+  padding-right: 10px;
+  color: red;
+}
+
+
+
+.header-left {
+  padding: 8px 10px 8px 5px;
+  display: flex;
+}
+
+.text-menu {
+  font-size: 14px;
+}
+
+.menu-container-button:active {
+  transition: 0.2s;
+  background-color: rgb(174, 174, 174, 0.5);
+}
+
+.rechercher-menu {
+  background-color: transparent(255, 255, 255);
+  height: 60px;
+  width: 122px;
+  margin-right: 20px;
+
+}
+
+.connexion {
+  background-color: transparent(255, 255, 255);
+  height: 60px;
+  width: 115px;
+
+
+ 
+}
+
+.connexion-logo,
+.connexion-logo-list,
+.rechercher-logo {
+ height: 32px;
+ width: 32px;
+}
+
+.connexion-button,
+.rechercher-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  padding: 11px 10px;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: none;
+}
+
+
+.connexion-menu-list {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  direction:ltr;
+  padding: 2px 10px;
+  margin-top: -5px;
+  border-style: none;
+  border-radius: 5px;
+  width: 205px;
+  right: 180px;
+  display: none;
+  z-index: 60;
+
+}
+
+.connexion-menu-list.show {
+  display: block;
+}
+
+.connexion-menu-list ul{
+  list-style: none;
+  padding: 0px;
+  margin: 5px 0px;
+}
+
+.connexion-menu-list li a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 15px;
+  
+}
+
+
+.list-menu-connexion,
+.list-menu-connexion1,
+.list-menu-connexion2  {
+  background-color: rgb(255, 255, 255);
+  display: block;
+  padding: 15px 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  
+
+
+}
+
+.list-menu-connexion:hover,
+.list-menu-connexion1:hover,
+.list-menu-connexion2:hover {
+  background-color: rgb(236, 236, 236);
+  transition: 0.5s;
+}
+
+
+.list-menu-connexion:active,
+.list-menu-connexion1:active {
+  background-color: rgba(255, 98, 0, 0.527);
+  color: white;
+  transition: 0s;
+} 
+
+.list-menu-connexion1:active{
+  background-color: rgba(0, 119, 255, 0.336);
+  color: white;
+  transition: 0s;
+} 
+
+.list-menu-connexion2:active {
+  background-color: rgba(26, 120, 9, 0.482);
+  color: white;
+  transition: 0s;
+} 
+
+.list-menu-connexion1 {
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+
+.connexion-logo-list {
+  padding-right: 10px;
+}
+
+.rechercher-menu-bg {
+  height: 222px;
+  background-color: rgb(255, 255, 255);
+  direction: ltr;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 50;
+  
+}
+
+.rechercher-menu-info {
+  background-color: rgb(239, 239, 239);
+  width: 1098px;
+  height: 135px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.rechercher-text {
+  font-size: 13px;
+  color: rgb(78, 78, 78);
+  margin-bottom: 15px;
+}
+
+.rechercher-title-input {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  color: rgb(58, 58, 58);
+}
+
+.rechercher-input-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rechercher-input {
+  width: 920px;
+  font-size: 15px;
+  padding: 10px;
+  border: solid 1px ;
+  border-color: rgb(196, 196, 196);
+  border-radius: 5px;
+
+}
+
+.rechercher-button-input {
+  margin: 0px;
+  border: none;
+  background-color: #003d7c;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.rechercher-button-input:active {
+  background-color: #0055aa;
+}
+
+.loop-logo {
+  height: 34px;
+  width: 34px;
+  margin-left: 5px;
+}
+
+.text-button-rechercher {
+  color: white;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-left: 5px
+}
+
+.rechercher-container {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 80px;
+  right: 0px;
+  left: 0px;
+  height: 242px;
+  direction: ltr;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 50;
+
+
+}
+.rechercher-container.show {
+  display: flex;
+}
+
+
+.container-fermer-recherche {
+
+  position: absolute;
+  display: inline-block;
+  z-index: 10000;
+  top: 10px;
+  right: 150px;
+
+
+}
+
+.button-fermer-recherche {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: gray;
+  cursor: pointer;
+
+}
+
+.button-fermer-recherche:active {
+  text-decoration: none;
+}
+
+.connexion-button:active,
+.rechercher-button:active {
+  transition: 0.2s;
+  background-color: rgb(174, 174, 174, 0.5);
+}
+
+
+.menu-container-bg {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  top: 80px;
+  bottom: 0px;
+  left: 0px;
+  width: 500px;
+  display: none;
+  border-radius: 0px 0px 0px 7px;
+  z-index: 50;
+  overflow: auto;
+  
+  
+}
+
+.menu-container-bg.show {
+  display: flex;
+  overflow: auto;
+
+}
+
+.menu-container {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: 30px;
+
+}
+
+.title-menu {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0px 10px 0px;
+  border-bottom: solid 2px rgb(175, 175, 175);
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  
+}
+
+.close-button-menu {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 30px;
+
+}
+
+.close-button-menu:active {
+  border: solid 2px lightblue;
+  border-radius: 5px;
+}
+
+.sous-menu {
+  border-bottom: solid 1px rgb(208, 208, 208);
+  padding: 12px;
+  font-size: 14px;
+  color: rgb(18, 18, 18);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sous-menu:hover {
+  background-color: rgba(208, 208, 208, 0.619);
+}
+
+
+.categorie {
+  margin-bottom: 30px;
+}
+
+.menu-logo-int {
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}
+
