@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>France Travail</title>
+    <link rel="stylesheet" href="styles/exo-pole-emploi-header.css">
+    <link rel="stylesheet" href="styles/exo-pole-emploi-page.css">
+    <link rel="stylesheet" href="styles/exo-pole-emploi-footer.css">
+    <style>
+
+      body {
+        background-color: rgb(145, 145, 145);
+        margin: 0px;
+
+        font-family: Arial, Helvetica, sans-serif;
+      
+      }
+      ::selection{
+        background-color: rgb(255, 106, 0);
+        color: white;
+      }
+
+ 
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-side">
+          <div class="header-left">
+            <img src="images/header-logo2021-marianne.svg" class="logo-france">
+            <img src="images/header-logo2023-ft-fr.svg" class="logo-ft">
+          </div>
+          <div class="menu-container-button">
+            <button class="menu-brg">
+              <img src="images/hamburger-menu.svg" class="menu-logo">
+              MENU
+            </button>
+          </div>
+      </div>
+
+      <div>
+        <img src="images/banniere-Jo-2024.gif" class="gif-header">
+      </div>
+
+      <div class="right-side">
+        <div class="rechercher-menu">
+          <button class="rechercher-button">RECHERCHER
+          <img src="images/search-svgrepo-com.png" class="rechercher-logo">
+          </button>
+        </div>
+
+
+        <div class="connexion">
+          <button class="connexion-button">
+            CONNEXION
+          <img class="connexion-logo" src="images/user-person-account-avatar-profile-man-svgrepo-com.png"  id="connexion-logo">
+          </button>
+          <div class="connexion-menu-list">
+            <ul>
+              <li class="list-menu-connexion">
+                <img src="images/user-person-account-avatar-profile-man-svgrepo-com4.png" class="connexion-logo-list">
+                Candidat</li>
+              <li class="list-menu-connexion1">
+                <img src="images/user-person-account-avatar-profile-man-svgrepo-com-3.png" class="connexion-logo-list">
+                Entreprise</li>
+              <li class="list-menu-connexion2">
+                <img src="images/user-person-account-avatar-profile-man-svgrepo-com-2.png" class="connexion-logo-list">
+                Espace Employeur</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="rechercher-container">
+      <div class="rechercher-menu-bg">
+        <div class="container-fermer-recherche">
+          <button class="button-fermer-recherche">FERMER LA RECHERCHE</button>
+        </div>
+        <div class="rechercher-menu-info">
+          <div class="rechercher-text">
+            Dans le champ ci-dessous, saisissez un mot-clé (exemple : actualisation) ou posez une question (exemple : comment trouver mon aide à l'embauche). Vous pouvez lancer la recherche en appuyant sur la touche « Entrée » ou en cliquant sur le bouton « rechercher ».<br>
+Une liste de suggestions peut vous être proposée, dans ce cas, vous pouvez naviguer avec les touches flèche haut et flèche bas, puis valider votre choix avec la touche « Entrée » du clavier.
+          </div>
+          <div class="rechercher-title-input">
+            Rechercher une information
+          </div>
+          <div class="rechercher-input-button">
+            <input class="rechercher-input" type="text" placeholder="Ex: actualisation, aide à l'embauche...">
+            <button class="rechercher-button-input">
+              <img src="images/search-svgrepo-com1.png" class="loop-logo">
+              <div class="text-button-rechercher">RECHERCHER</div>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="menu-container-bg">
+      <div class="menu-container">
+        <div class="categorie">
+          <div class="title-menu">INFORMATIONS
+            <button class="close-button-menu">X</button>
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/info-svgrepo-com.png">
+            Conseils Candidat
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/document-file-office-svgrepo-com.png">
+           Actualités
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/map-svgrepo-com.png">
+            En région
+          </div>
+        </div>
+
+        <div class="categorie">
+          <div class="title-menu">LES PORTAILS SPÉCIALISÉS
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/camera-reels-svgrepo-com.png">
+            Spectacle
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/web-svgrepo-com.png">
+           Mobilité internationale
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/baby-stroller-svgrepo-com.png">
+            Assistant(e)s maternel(le)s
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/store-sign-svgrepo-com.png">
+            Emploi Store
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/tv-svgrepo-com.png">
+            Mon parcours Info
+          </div>
+        </div>
+
+        <div class="categorie">
+          <div class="title-menu">SERVICES CANDIDAT
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/reuse-svgrepo-com.png">
+            M'actualiser
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/search-svgrepo-com copie 2.png">
+           Rechercher des offres
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/document-file-office-svgrepo-com-2.png">
+            Espace personnel,gérer mon dossier, déposer mon CV
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/sign-in-svgrepo-com.png">
+            M'inscrire, me réinscrire
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/book-open-svgrepo-com.png">
+            Trouver ma formation
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/compass-alt-1-svgrepo-com.png">
+            MétierScope
+          </div><div class="sous-menu">
+            <img class="menu-logo-int" src="images/list-ul-alt-svgrepo-com.png">
+            Tous les services
+          </div>
+          
+        </div>
+
+        <div class="categorie">
+          <div class="title-menu">ACCUEIL
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/user-person-account-avatar-profile-man-svgrepo-com4.png">
+            Accès Candidat
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/user-person-account-avatar-profile-man-svgrepo-com-3.png">
+           Accès Entreprise
+          </div>
+          <div class="sous-menu">
+            <img class="menu-logo-int" src="images/user-person-account-avatar-profile-man-svgrepo-com-2.png">
+            Accès Particulier Employeur
+          </div>
+        </div>
+        <div class="categorie">
+          <div style="color: transparent;padding-top: 20px;">A</div>
+        </div>
+      </div>
+    </div>
+    <div class="recherche-metier-bg">
+      <div class="nombre-emploi">1 186 936 offres d'emploi disponibles</div>
+      <div class="metier-input-container">
+        <input class="input-metier" type="text" placeholder="Métier, compétence, mot-clé, n° d'offre">
+        <input class="input-lieu" type="text" placeholder="Lieu de travail">
+        <button class="rechercher-button-metier">
+          <img class="logo-rechercher-input" src="images/search-svgrepo-com1.png">
+        </button>
+        <img class="input-logo-metier" src="images/toolbox-svgrepo-com.png">
+        <img class="input-logo-lieu" src="images/map-point-svgrepo-com.png">
+      </div>
+      <div class="filtre-recherche">
+       Rechercher des offres par région ou par secteur d'activité
+      </div>
+      <div class="button-menu-metier">
+        <button class="menu-metier-button-entreprise">
+          <img class="logo-menu-metier" src="images/person-male-svgrepo-com.png">
+          <div style="display: flex;justify-content: space-between;
+          align-items: center;width: 100%;">Entreprise
+          <img class="logo-menu-metier-right" src="images/arrow-right-svgrepo-com.png"></div>
+        </button>
+        <button class="menu-metier-button-employeur">
+          <img class="logo-menu-metier" src="images/person-male-svgrepo-com.png">
+          <div style="display: flex;justify-content: space-between;
+          align-items: center;width: 100%;">Particulier Employeur
+          <img class="logo-menu-metier-right" src="images/arrow-right-svgrepo-com.png"></div>
+          </button>
+      </div>
+      <div class="bulle-menu">
+        <div class="bulle">
+          <button class="button-bulle">
+            <img class="logo-bulle" src="images/account-management-svgrepo-com.png">
+          </button>
+          <div class="bulle-name">Gérer mon dossier,<br>Publier mon CV</div>
+          
+        </div>
+        <div class="bulle">
+          <button class="button-bulle">
+            <img class="logo-bulle" src="images/sign-in-svgrepo-com copie.png">
+          </button>
+          <div class="bulle-name">M'inscrire, me réinscrire<br>(demandeur d'emploi)</div>
+        </div>
+        <div class="bulle">
+          <button class="button-bulle">
+            <img class="logo-bulle" src="images/document-file-office-svgrepo-com-2 copie.png">
+          </button>
+          <div class="bulle-name">Allocations et aides</div>
+        </div>
+        <div class="bulle">
+          <button class="button-bulle">
+            <img class="logo-bulle" src="images/open-book-svgrepo-com.png">
+          </button>
+          <div class="bulle-name">Trouver ma<br>formation</div>
+        </div>
+        <div class="bulle">
+          <button class="button-bulle">
+            <img class="logo-bulle" src="images/store-sign-svgrepo-com copie.png">
+          </button>
+          <div class="bulle-name">Explorer les services en ligne<br>de l'emploi</div>
+        </div>
+        <div class="bulle">
+          <button class="button-bulle">
+            <img class="logo-bulle" src="images/more-horizontal-svgrepo-com.png">
+          </button>
+          <div class="bulle-name">Plus de services</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="actualité-bg">
+      <div class="actualité-title">Actualités de l'emploi
+        <div class="actualité-border"></div>
+      </div>
+      <div class="zone-1">
+        <div class="actualité-container">
+          <div class="vigilant" >
+            <div class="logo-vigilant">
+              <img src="images/tous-vigilants-175.gif" class="vigilant-img">
+            </div>
+            <div class="vigilant-text">
+              <div class="vigilant-title">Tous vigilants !</div>
+              <div>Consulter les arnaques et tentatives de fraude en cours.</div>
+              <button class="button-actualité">EN SAVOIR PLUS</button>
+            </div>
+          </div>
+          <div class="régions" >
+            <div class="logo-région">
+              <img src="images/carte-region-3015097323034788413.gif" class="vigilant-img">
+            </div>
+            <div class="vigilant-text">
+              <div class="régions-title">En direct des régions !</div>
+              <div>Des actualités, des événements, des opportunités d'emploi et de formation près de chez vous.</div>
+              <button class="button-actualité">L'ACTU EN RÉGION</button>
+            </div>
+          </div>
+        </div>
+      <div class="grid-actualité">
+        <div class="actualité-bloc">
+          <div class="bloc-info">
+            <div class="bloc-title">Et si vous tentiez l’aventure de l’emploi saisonnier ?</div>
+            <div class="bloc-text">Vous avez envie de remettre un pied dans le monde du travail, 
+              d’apprendre un métier ou tout simplement d’explorer de nouveaux horizons professionnels ?
+               L’emploi saisonnier prend ses quartiers d’été et les besoins en main-d’œuvre sont nombreux.</div>
+          </div>
+          <div class="bloc-img"><img class="actualité-img" src="images/emploi-saisonnier-tenter-aventure-308.jpg"></div>
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-info">
+            <div class="bloc-title">Cyberattaque, soyez vigilants !</div>
+            <div class="bloc-text">Suite à une cyberattaque dont France Travail et Cap emploi ont été victimes,
+               des informations personnelles sont susceptibles d’être divulguées et d’être exploitées de manière illégale.</div>
+          </div>
+          <div class="bloc-img"><img class="actualité-img" src="images/tous-vigilants-308.gif"></div>
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-info">
+            <div class="bloc-title">Entretien d’embauche : nos conseils pour répondre à 3 questions délicates</div>
+            <div class="bloc-text">Lors d’un entretien, pas toujours facile d’exprimer
+               son avis sur sa dernière expérience professionnelle… Alexandre Martins, consultant à l’APEC,
+                nous donne ses conseils.   </div>
+          </div>
+          <div class="bloc-img"><img class="actualité-img" src="images/entretien-questions-difficiles-308.jpg"></div>
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-info">
+            <div class="bloc-title">Hello handicap du 23 au 26 avril</div>
+            <div class="bloc-text">Hello handicap, c’est la solution pensée pour faciliter le recrutement des travailleurs handicapés.
+               Accédez à des milliers d’offres d’emploi, partout en France. Postulez aux offres d'emploi et
+                passez vos entretiens par téléphone ou par tchat.</div>
+          </div>
+          <div class="bloc-img"><img class="actualité-img" src="images/Hello-Handicap-2024-308.jpg"></div>
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-info">
+            <div class="bloc-title">Métiers d’art : soyez le prochain artisan du savoir-faire français !</div>
+            <div class="bloc-text">Laissez-vous tenter par le secteur des métiers d’art qui allie art,
+               technique et savoir-faire à la française.
+            </div>
+          </div>
+          <div class="bloc-img"><img class="actualité-img" src="images/metier-art-savoir-francais-308.jpg"></div>
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-info">
+            <div class="bloc-title">Rejoignez l'équipe !</div>
+            <div class="bloc-text">Obtenez un job d'été dans la sécurité événementielle à l'occasion des Jeux de Paris 2024.
+               Vous êtes intéressé ? Postulez à la formation.</div>
+          </div>
+          <div class="bloc-img"><img class="actualité-img" src="images/Rejoindre-les-equipes-secu-JOP-308.jpg"></div>
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-info">
+            <div class="bloc-title">Job dating, faites mouche en 10 min !</div>
+            <div class="bloc-text">Comme pour un sportif, le job dating exige une bonne préparation, de la maîtrise,
+               le dépassement de soi et une bonne récupération. Des étapes essentielles pour réussir ce rendez-vous
+                avec un recruteur, et potentiel employeur. Suivez le guide !</div>
+          </div>
+          <div class="bloc-img"><img class="actualité-img" src="images/job-dating-308.jpg"></div>
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-info">
+            <div class="bloc-title">Pôle emploi devient France Travail</div>
+            <div class="bloc-text">Au 1er janvier 2024, en application de la loi pour le plein emploi,
+               Pôle emploi évolue et devient France Travail.
+            </div>
+          </div>
+          <div class="bloc-img"><img class="actualité-img" src="images/Bloc_Marque_RF_France_Travail_marque-308.jpg"></div>
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-info">
+            <div class="bloc-title">Guide des simulateurs d’allocations et aides en ligne</div>
+            <div class="bloc-text">Le nouveau service en ligne de France Travail propose de vous guider pour connaître
+               vos aides ou allocations sans vous tromper et en toute autonomie.</div>
+          </div>
+          <div class="bloc-img"><img class="actualité-img" src="images/estime-308.jpg"></div>
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-newsletter">
+            <div style="padding: 15px 15px;color: white;font-size: 13px;">Newsletter</div>
+            <img class="mode-emploi" src="images/mode-emploi-NL-308.png">
+            <div class="text-bloc">
+              <h2>Mode d'emploi</h2>
+              Votre newsletter mensuelle
+            </div>
+            
+          </div>
+          <div class="div-buttonsA">
+            <div class="div-lien">
+              <div class="lien-text">Mode d'emploi - Mars # 136
+              </div>
+              <div class="lien-logo">
+                <img class="logo-bloc" src="images/list-check-svgrepo-com.png">
+              </div>
+            </div>
+            <div class="div-lien2">
+              <div class="lien-text">Abonnement et anciens numéros</div>
+              <div class="lien-logo"><img class="logo-bloc" src="images/info-svgrepo-com copie.png"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-guide">
+            <img class="mode-emploi" style="padding-top: 20px;" src="images/simulateur-2-308-transparent.gif">
+            <div class="text-bloc">
+              <h2>Guide des simulateurs d'allocations et aides</h2>
+            </div>
+          </div>
+          <div class="div-buttonsB">
+            <div class="div-lien">
+              <div class="lien-text">Guide et simulateurs</div>
+              <div class="lien-logo"><img class="logo-bloc" src="images/math-finance-svgrepo-com.png"></div>
+            </div>
+            <div class="div-lien2">
+              <div class="lien-text">Comprendre le calcul</div>
+              <div class="lien-logo"><img class="logo-bloc" src="images/wallet-svgrepo-com.png"></div>
+            </div>
+          </div>
+  
+        </div>
+
+        <div class="actualité-bloc">
+          <div class="bloc-service">
+            <div style="padding: 15px 15px 0px 15px;color: white;font-size: 13px;">Services</div>
+            <div style="display: flex; justify-content: center;padding-top: 0px;"><img class="service" src="images/services-publics-3086HP.png"></div>
+            <div class="text-bloc">
+              <h2>Je donne mon avis</h2>
+             Pour des services publics plus proches, plus simples et plus efficaces.
+            </div>
+          </div>
+          <div class="div-buttonsB">
+            <div class="div-lien2">
+              <div class="lien-text">Partagez votre expérience</div>
+              <div class="lien-logo"><img class="logo-bloc" src="images/light-bulb-idea-svgrepo-com.png"></div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <button class="actualité">PLUS D'ACTUALITÉS</button>
+    </div>
+
+    <footer>
+      <div class="footer-list">
+        <div class="list-title">
+          AUTRES SITES FRANCE TRAVAIL
+        </div>
+        <div class="border-footer1"></div>
+        <div class="list-text1">
+          <ul>
+            <li>En région</li>
+            <li>Institutionnel</li>
+            <li>Mes évènements emploi</li>
+            <li>France Travail TV</li>
+            <li>France Travail spectacles</li>
+            <li>Mobilité internationale</li>
+            <li>Les métiers porteurs</li>
+            <li>Data Emploi</li>
+            <li>Emploi Store</li>
+            <li>France Travail Salons en ligne</li>
+            <li>Emplois 2024</li>
+            <li>Service Publics +</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-list">
+        <div class="list-title">
+          SUR FRANCETRAVAIL.FR
+        </div>
+        <div class="border-footer2"></div>
+        <div class="list-text">
+          <ul>
+            <li>Votre agence France Travail</li>
+            <li>Info trafic</li>
+            <li>Sites utiles</li>
+            <li>Plan du site</li>
+            <li>Informations légales</li>
+            <li>Conditions générales d'utilisation</li>
+            <li>Protections des données personnelles</li>
+            <li>Cookies</li>
+            <li>Accessibilité partiellement conforme</li>
+            <li>Algorithmes</li>
+            <li>Nos partenaires</li>
+            <li>Annuaire des pages entreprises</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-list">
+        <div class="list-title">
+          CANDIDAT
+        </div>
+        <div class="border-footer3"></div>
+        <div class="list-text">
+          <ul>
+            <li>Mode d'emploi, le mag qui vous simplifie le travail</li>
+            <li>Questions et Contacts - candidat</li>
+            <li>Où envoyer mes bulletins de salaire</li>
+            <li>Le calendrier des paiements</li>
+            <li>Guide des simulateurs d’allocations et aides en ligne</li>
+            <li>Soyez vigilants !</li>
+            <li>Votre projet professionnel</li>
+            <li>Vos recherches</li>
+            <li>France Travail et vous</li>
+            <li>En formation</li>
+            <li>Découvrir le marché du travail</li>
+            <li>MétierScope</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-list">
+        <div class="list-title">
+          EMPLOYEUR
+        </div>
+        <div class="border-footer4"></div>
+        <div class="list-text">
+          <ul>
+            <li>Solution recrutement, le webzine du recrutement pour les entreprises</li>
+            <li>Questions et Contacts - employeur</li>
+            <li>Conseils pour recruter</li>
+            <li>Conseils pour vos déclarations et cotisations</li>
+            <li>Rechercher des candidats en toute autonomie</li>
+            <li>Remettre une attestation employeur</li>
+            <li>Publier une offre</li>
+            <li>Particulier employeur</li>
+            <li>Information sur le marché du travail</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-2">
+      <button class="version">
+        <img class="logo-version" src="images/low-vision-svgrepo-com.png">VERSION CONTRASTÉE</button>
+      <div class="border-footer5"></div>
+      Copyright 2024 © Nicolas LE BRUN
+    </div>
+    
+
+
+
+
+
+
+
+    <script>
+
+      const menuConnexionButton = document.querySelector('.connexion-button');
+      const listMenu = document.querySelector('.connexion-menu-list')
+
+      const toggleMenu = () => {
+        listMenu.classList.toggle('show')
+      };
+
+      menuConnexionButton.addEventListener('click', toggleMenu);
+
+        window.addEventListener("click", function(event) {
+    if (!event.target.matches('.connexion-button') && !event.target.matches('.connexion-logo')) {
+      listMenu.classList.remove('show');
+    }
+    });
+
+
+    const menuRechercherButton = document.querySelector('.rechercher-button');
+
+    const rechercherMenu = document.querySelector('.rechercher-container')
+
+      const toggleMenu1 = () => {
+        openMenuRechercher()
+        rechercherMenu.classList.toggle('show');
+        if ( document.body.style.overflow === 'hidden' ) {
+          document.body.style.overflow = ''
+        } else {document.body.style.overflow = 'hidden'}
+      };
+
+      menuRechercherButton.addEventListener('click', toggleMenu1);
+
+
+      window.addEventListener("click", function(event) {
+    const isRechercherContainerClicked = event.target.closest('.rechercher-container');
+     if (event.target.matches('.button-fermer-recherche')) {
+      rechercherMenu.classList.remove('show');
+      document.body.style.overflow = ''
+    }
+    else if (!isRechercherContainerClicked && !event.target.matches('.rechercher-button') && !event.target.matches('.connexion-button') && !event.target.closest('.header')) {
+        rechercherMenu.classList.remove('show');
+        document.body.style.overflow = ''
+    }
+});
+
+
+  document.querySelector('.list-menu-connexion1').addEventListener("click", function() {
+  window.open("https://entreprise.francetravail.fr/accueil/choixauthentification", "_blank"); // Remplacez l'URL par l'adresse de votre nouvelle page
+});
+
+window.addEventListener('scroll', function() {
+  const header = document.querySelector('.header');
+  const gif = document.querySelector('.gif-header');
+   const container = document.querySelector('.rechercher-container')
+   const containerMenu = document.querySelector('.menu-container-bg')
+
+  if (window.scrollY > 10) {
+    header.style.height = '35px';
+    gif.style.display = 'none'
+    container.style.top = '50px'
+    containerMenu.style.top = '50px'
+
+  } else {
+   gif.style.display = 'flex' 
+   header.style.height = '60px';
+   container.style.top = '80px'
+   containerMenu.style.top = '80px'
+  }
+})
+
+
+    const menuButton1 = document.querySelector('.menu-brg');
+    const menu = document.querySelector('.menu-container-bg');
+    const grise = document.querySelectorAll('.actualité-bg, .recherche-metier-bg,footer, .footer-2');
+    const Body = document.body
+
+      const toggleMenu2 = () => {
+        openMenu()
+        console.log('hih')
+        menu.classList.toggle('show');
+        Body.classList.toggle('menu-open');
+        console.log(Body.classList);
+        grise.forEach(function(grise) {
+          grise.classList.toggle('grise')
+        });
+
+        console.log(grise[2].classList)
+
+
+
+        
+      };
+
+      menuButton1.addEventListener('click', toggleMenu2);
+
+      window.addEventListener("click", function(event) {
+    const isMenuContainerClicked = event.target.closest('.menu-container-bg');
+     if (event.target.matches('.close-button-menu')) {
+      menu.classList.remove('show'); Body.classList.remove('menu-open');
+      grise.forEach(function(grise) {
+          grise.classList.remove('grise')
+        });
+    }
+    else if (!event.target.closest('.header') && !event.target.closest('.menu-container-bg')) {
+        menu.classList.remove('show');Body.classList.remove('menu-open');
+        grise.forEach(function(grise) {
+          grise.classList.remove('grise')
+        });
+    }
+});
+
+
+ function openMenu () {
+
+  if (rechercherMenu.classList[1] === 'show') {
+    rechercherMenu.classList.remove('show');
+  }
+ }
+
+ function openMenuRechercher () {
+if (menu.classList[1] === 'show') {
+  menu.classList.remove('show');
+
+}
+
+}
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
